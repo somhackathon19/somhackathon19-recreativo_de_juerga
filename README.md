@@ -20,7 +20,7 @@ Exemples de consultes:
   - GET esport event by id
     `curl -i http://157.230.45.171:5000/api/esdeveniment/esport/[id]`
   - GET altre event by id
-    `curl -i http://157.230.45.171:5000/api/esdeveniment/altre/[id]`
+    `curl -i http://157.230.45.171:5000/api/esdeveniment/[id]`
   - GET club event by id
     `curl -i http://157.230.45.171:5000/api/esdeveniment/club/[id]`
   - GET etiquetes
