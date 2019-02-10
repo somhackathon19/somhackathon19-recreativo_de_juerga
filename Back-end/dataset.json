@@ -1,0 +1,6 @@
+[
+    event_sport = {'titol':'3x3 partit basquet','descripcio': 'Partit de basquet 3x3. Pla den boet','year':2019,
+    'month':2,'day':20,'hora':'17:00','ubicacio':25,'creador':4444,'actiu':True,'etiqueta_A':92,
+                  'etiqueta_B':108,'etiqueta_C':0, 'esport_rang':'6 - 12', 'esport_participants':8,
+                   'tipus':'Esports'}
+]

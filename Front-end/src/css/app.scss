@@ -1,0 +1,70 @@
+/* Your app custom styles here */
+.filter-button {
+    font-size: 17px;
+}
+
+.card-link {
+    color: inherit;
+}
+
+.participar-button {
+    background-color: #007aff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &.joined {
+        background-color: green;
+    }
+
+    & a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.chat-button {
+    position: fixed;
+    right: 0;
+    bottom: 25%;
+    z-index: 1000;
+    background: #c8c8c8;
+    border-radius: 0;
+}
+
+.ajuntament-list-button a {
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    background: #f5f5f5;
+}
+
+.theme-matconn {
+    & .page {
+        background-color: #ff018a !important;
+    }
+
+    & .item-content {
+        background-color: #ff018a !important;
+    }
+
+    & .item-inner::before {
+        color: #9c0858 !important;
+    }
+
+    & .item-inner::after {
+        background-color: #9c0858 !important;
+    }
+
+    & ul::before {
+        background-color: #9c0858 !important;
+    }
+
+    & .item-title {
+        color: black;
+        font-weight: bolder;
+    }
+}

@@ -1,0 +1,61 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Titol mapa{% endblock %}
+{% block heading %}<h2>Mapa que mostra blabla</h2>{% endblock %}
+
+{% block body %}
+  <p>
+    IP server:
+    <a href="http://{{ config.get('SERVER_NAME') }}">
+      http://{{ config.get('SERVER_NAME') }}
+    </a>.
+    Es pot trobar la seguent info:
+  </p>
+  <ul>
+    <li>
+      Punt 1
+    </li>
+    <li>
+      Punt 2
+    </li>
+    <li>
+      Punt 3
+    </li>
+    <li>Punt 4</li>
+  </ul>
+
+  <hr/>
+
+  <h3>Segon apartat</h3>
+  <p>
+    Blabla
+  </p>
+  <p>
+    Blablabla
+  </p>
+
+  <hr/>
+
+  <h3>Tercer apartat</h3>
+  <p>
+    <a href="select_map">Accedeix a un mapa random</a>
+  </p>
+  <p>
+    Visualitza els equipaments esportius
+  </p>
+  <p>
+    Visualitza interiors
+  </p>
+  <p>
+    Visualitza zona verda
+  </p>
+  <p>
+    Visualitza riera
+  </p>
+  <p>
+    Visualitza equipament en projecte
+  </p>
+
+  <small class="text-muted">blabla reduit</small>
+
+{% endblock %}

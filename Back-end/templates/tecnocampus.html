@@ -1,0 +1,35 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}SOM HackathonTecnocampus{% endblock %}
+{% block heading %}<h2>SOM HackathonTecnocampus 2019</h2>{% endblock %}
+
+{% block body %}
+    <p>
+      What's good:<br>
+      {{ myvar }}
+      <div id="app">
+        {% raw %}
+        {{ message }}
+        {% endraw %}
+      </div>
+    </p>
+    <p>
+      Blabla
+    </p>
+
+    <hr/>
+
+    <h3>Apartat</h3>
+    <p>
+      Blabla
+    </p>
+    <script>
+      var app = new Vue({
+        el: '#app',
+        data: {
+          message: 'Text from VUE!!! (raw & endraw mandatory!)'
+        }
+      })
+    </script>
+
+{% endblock %}
